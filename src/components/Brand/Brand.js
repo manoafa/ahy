@@ -15,9 +15,9 @@ const Brand = (props) => {
         id="svg" 
         version="1.1" 
         xmlns="http://www.w3.org/2000/svg" 
-        width="200" 
-        height="150" 
-        viewBox="0, 0, 200,100">
+        width="500" 
+        height="100" 
+        viewBox="0, 0, 500,175">
           <g id="svgg">
             <path 
               id="path1" 
