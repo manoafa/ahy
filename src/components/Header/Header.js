@@ -80,9 +80,9 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
+      {/* <div className={styles.headerMessageContainer}>
         <span>{bannerMessage}</span>
-      </div>
+      </div> */}
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
@@ -167,7 +167,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>Que cherchez-vous?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}
@@ -179,7 +179,7 @@ const Header = (prop) => {
               handleChange={(_, e) => setSearch(e)}
             />
           </form>
-          <div className={styles.suggestionContianer}>
+          {/* <div className={styles.suggestionContianer}>
             {searchSuggestions.map((suggestion, index) => (
               <p
                 role={'presentation'}
@@ -193,7 +193,7 @@ const Header = (prop) => {
                 {suggestion}
               </p>
             ))}
-          </div>
+          </div> */}
           <div
             role={'presentation'}
             onClick={(e) => {

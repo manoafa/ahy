@@ -71,8 +71,7 @@ const Footer = (prop) => {
               <div className={styles.newsLetterContent}>
                 <span className={styles.linkTitle}>Newsletter</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                Bénéficiez de 15% de remise sur votre premier achat ! De plus, soyez le premier informé des soldes, des lancements de nouveaux produits et des offres exclusives!
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -132,7 +131,7 @@ const Footer = (prop) => {
           </div>
         </div>
       </Container>
-      <div className={styles.contentBottomContainer}>
+      {/* <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
             <div className={styles.settings}>
@@ -179,7 +178,7 @@ const Footer = (prop) => {
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };
