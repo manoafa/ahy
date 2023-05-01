@@ -27,37 +27,33 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`AHY \n Maroquinerie`}
         />
 
         <div className={styles.navContainer}>
           <ThemeLink onClick={() => handleScroll(historyRef)} to={'#history'}>
-            History
+            Histoire
           </ThemeLink>
           <ThemeLink onClick={() => handleScroll(valuesRef)} to={'#values'}>
-            Values
+            Mission
           </ThemeLink>
           <ThemeLink
             onClick={() => handleScroll(sustainabilityRef)}
             to={'#sustainability'}
           >
-            Sustainability
+            Valeur
           </ThemeLink>
         </div>
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Ahy Maroquinerie est une start-up spécialisée dans la maroquinerie moderne pour toutes les occasions dans la création de produits en cuir à la mode et intemporels pour tout le monde.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+              Nous avons actuellement cinq produits disponibles qui ont été soigneusement fabriqués avec le souci du détail et de la qualité supérieure. Notre équipe d'artisans du cuir est fière de la qualité de son travail et s'efforce de créer des produits à la fois élégants et fonctionnels. Des portefeuilles aux sacs en passant par les étuis de téléphone et les porte-clés, nous avons quelque chose pour tout le monde. Nos créations sont nouvelles, à la mode et parfaitement adaptées au mode de vie moderne. 
             </p>
           </div>
         </Container>
@@ -68,50 +64,22 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
+            <h3>Notre Mission</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+                Nous accordons la priorité à la satisfaction de nos clients et nous nous efforçons de créer des produits dont nos clients peuvent être fiers et dont ils peuvent profiter pendant des années. Nous pensons que tout le monde devrait avoir accès à de beaux accessoires de qualité, et c'est pourquoi nous offrons une large sélection de pièces pour tous. Que vous soyez à la recherche d'un sac en cuir intemporel, d'un portefeuille ou d'un bracelet de montre, Ahy Maroquinerie a l'accessoire parfait pour vous.
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Respecter l'environnement</li>
+                <li>Sophistiqué et unique</li>
+                <li>Uniquement des matériaux naturels</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>
-            <h3>Sustainability</h3>
+            <h3>Valeur</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
-              </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                Nos produits sont garantis un an et sont fabriqués à la main à Madagascar. Nous nous efforçons de combiner des méthodes traditionnelles avec des designs modernes pour créer des pièces intemporelles qui sont à la fois élégantes et fonctionnelles. Que vous soyez à la recherche d'un cadeau ou d'un article pour vous-même, Ahy Maroquinerie a quelque chose pour tout le monde. Visitez-nous en ligne pour explorer notre sélection et trouver l'article parfait pour vous.
               </p>
             </div>
           </div>
